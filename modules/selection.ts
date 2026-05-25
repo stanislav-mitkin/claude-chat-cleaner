@@ -78,6 +78,20 @@ export function toggleById(id: string) {
   notifySelection();
 }
 
+export function selectById(id: string) {
+  if (selectedIds.has(id)) return;
+  selectedIds.add(id);
+  getChatList().find((c) => c.id === id)?.element.classList.add(CSS_SELECTED);
+  notifySelection();
+}
+
+export function deselectById(id: string) {
+  if (!selectedIds.has(id)) return;
+  selectedIds.delete(id);
+  getChatList().find((c) => c.id === id)?.element.classList.remove(CSS_SELECTED);
+  notifySelection();
+}
+
 export function toggleHovered() {
   if (hoveredId) toggleById(hoveredId);
 }

@@ -1,6 +1,7 @@
 import {
   getMode, enterMode, exitMode,
   toggleHovered, toggleById, selectAll, clearAll,
+  selectById, deselectById,
   setHovered, getSelectedIds, getSelectedItems,
 } from './selection';
 import { extractIdFromHref } from './chat-list';
@@ -15,6 +16,10 @@ const CONFIRM_TIMEOUT_MS = 2000;
 
 let pendingDelete = false;
 let confirmTimer: ReturnType<typeof setTimeout> | null = null;
+
+// ── shift-brush state ─────────────────────────────────────────────────────────
+// null = brush not active; true = brushing selects; false = brushing deselects
+let brushAction: boolean | null = null;
 
 const isModifier = (e: KeyboardEvent) => isMac() ? e.metaKey : e.ctrlKey;
 
@@ -74,8 +79,15 @@ function onKeyDown(e: KeyboardEvent) {
 
   if (getMode() !== 'active') return;
 
+  if (e.key === 'Shift') {
+    // Prevent browser text selection while brushing
+    e.preventDefault();
+    return;
+  }
+
   if (e.key === 'Escape') {
     e.preventDefault();
+    brushAction = null;
     cancelPending();
     exitMode();
     return;
@@ -111,6 +123,10 @@ function onKeyDown(e: KeyboardEvent) {
   }
 }
 
+function onKeyUp(e: KeyboardEvent) {
+  if (e.key === 'Shift') brushAction = null;
+}
+
 // ── mouse: hover + click delegation ──────────────────────────────────────────
 
 const CHAT_SELECTOR = 'nav[aria-label="Sidebar"] a[href*="/chat/"], a[href*="/chat/"]';
@@ -125,9 +141,16 @@ function onMouseOver(e: MouseEvent) {
   const el = getChatEl(e.target);
   if (!el) return;
   const id = el.dataset.chatId ?? extractIdFromHref(el.getAttribute('href') || '');
-  if (id) {
-    if (!el.dataset.chatId) el.dataset.chatId = id;
-    setHovered(id);
+  if (!id) return;
+  if (!el.dataset.chatId) el.dataset.chatId = id;
+  setHovered(id);
+
+  if (e.shiftKey) {
+    // First chat touched determines brush direction for the whole gesture
+    if (brushAction === null) {
+      brushAction = !getSelectedIds().has(id);
+    }
+    brushAction ? selectById(id) : deselectById(id);
   }
 }
 
@@ -181,6 +204,7 @@ export function initKeybindings() {
   onClearButtonClick(() => clearAll());
   onExitButtonClick(() => { cancelPending(); exitMode(); });
   document.addEventListener('keydown', onKeyDown, { capture: true });
+  document.addEventListener('keyup', onKeyUp, { capture: true });
   document.addEventListener('mousedown', onMouseDown, { capture: true });
   document.addEventListener('mouseover', onMouseOver, { capture: true });
   document.addEventListener('mouseout', onMouseOut, { capture: true });
@@ -189,7 +213,9 @@ export function initKeybindings() {
 
 export function destroyKeybindings() {
   cancelPending();
+  brushAction = null;
   document.removeEventListener('keydown', onKeyDown, { capture: true });
+  document.removeEventListener('keyup', onKeyUp, { capture: true });
   document.removeEventListener('mousedown', onMouseDown, { capture: true });
   document.removeEventListener('mouseover', onMouseOver, { capture: true });
   document.removeEventListener('mouseout', onMouseOut, { capture: true });
