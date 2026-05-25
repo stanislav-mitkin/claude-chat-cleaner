@@ -154,7 +154,10 @@ function onMouseOut(e: MouseEvent) {
   if (getMode() !== 'active') return;
   const el = getChatEl(e.target);
   if (!el) return;
-  if (el.contains(e.relatedTarget as Node)) return;
+  // Use the row (<li> or parent) so hover isn't lost when mouse drifts to
+  // sibling elements like the "More options" button inside the same row.
+  const row = el.closest('li') ?? el.parentElement;
+  if (row && row.contains(e.relatedTarget as Node)) return;
   setHovered(null);
 }
 
