@@ -1,6 +1,6 @@
 import {
   getMode, enterMode, exitMode,
-  toggleHovered, toggleById, selectAll, clearAll,
+  toggleById, selectAll, clearAll,
   selectById, deselectById,
   setHovered, getSelectedIds, getSelectedItems,
 } from './selection';
@@ -98,12 +98,6 @@ function onKeyDown(e: KeyboardEvent) {
   if (inInput) return;
 
   switch (e.code) {
-    case 'Space':
-      e.preventDefault();
-      cancelPending();
-      toggleHovered();
-      break;
-
     case 'KeyA':
       if (isModifier(e)) { e.preventDefault(); cancelPending(); selectAll(); }
       break;
