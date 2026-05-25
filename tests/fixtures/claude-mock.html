@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Claude Mock</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { display: flex; height: 100vh; background: #1a1a1a; color: #e5e5e5; font-family: sans-serif; }
+
+    nav {
+      width: 288px;
+      background: #111;
+      padding: 12px 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      overflow-y: auto;
+    }
+
+    .group {
+      position: relative;
+    }
+
+    nav a {
+      display: block;
+      padding: 6px 10px;
+      border-radius: 6px;
+      color: #e5e5e5;
+      text-decoration: none;
+      font-size: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    nav a:hover { background: #222; }
+
+    .more-btn {
+      position: absolute;
+      right: 4px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #999;
+      font-size: 16px;
+      padding: 2px 6px;
+      display: none;
+    }
+
+    .group:hover .more-btn { display: block; }
+
+    main {
+      flex: 1;
+      padding: 40px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 80px;
+      margin-top: 20px;
+      background: #222;
+      color: #e5e5e5;
+      border: 1px solid #444;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <nav aria-label="Sidebar">
+    <div class="group">
+      <a href="https://claude.ai/chat/aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa">First mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for First mock chat">⋯</button>
+    </div>
+    <div class="group">
+      <a href="https://claude.ai/chat/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb">Second mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for Second mock chat">⋯</button>
+    </div>
+    <div class="group">
+      <a href="https://claude.ai/chat/cccccccc-cccc-cccc-cccc-cccccccccccc">Third mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for Third mock chat">⋯</button>
+    </div>
+    <div class="group">
+      <a href="https://claude.ai/chat/dddddddd-dddd-dddd-dddd-dddddddddddd">Fourth mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for Fourth mock chat">⋯</button>
+    </div>
+    <div class="group">
+      <a href="https://claude.ai/chat/eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee">Fifth mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for Fifth mock chat">⋯</button>
+    </div>
+    <div class="group">
+      <a href="https://claude.ai/chat/ffffffff-ffff-ffff-ffff-ffffffffffff">Sixth mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for Sixth mock chat">⋯</button>
+    </div>
+    <div class="group">
+      <a href="https://claude.ai/chat/11111111-1111-1111-1111-111111111111">Seventh mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for Seventh mock chat">⋯</button>
+    </div>
+    <div class="group">
+      <a href="https://claude.ai/chat/22222222-2222-2222-2222-222222222222">Eighth mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for Eighth mock chat">⋯</button>
+    </div>
+    <div class="group">
+      <a href="https://claude.ai/chat/33333333-3333-3333-3333-333333333333">Ninth mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for Ninth mock chat">⋯</button>
+    </div>
+    <div class="group">
+      <a href="https://claude.ai/chat/44444444-4444-4444-4444-444444444444">Tenth mock chat</a>
+      <button class="more-btn" aria-haspopup="menu" aria-label="More options for Tenth mock chat">⋯</button>
+    </div>
+  </nav>
+  <main>
+    <h1>Claude Mock Page</h1>
+    <p>Testing extension injection and keyboard shortcuts.</p>
+    <textarea placeholder="Type here to test input focus handling"></textarea>
+  </main>
+</body>
+</html>

@@ -1,0 +1,23 @@
+import { defineConfig } from 'wxt';
+
+export default defineConfig({
+  extensionApi: 'chrome',
+  manifest: {
+    default_locale: 'en',
+    name: '__MSG_ext_name__',
+    description: '__MSG_ext_description__',
+    version: '0.1.0',
+    permissions: [],
+    host_permissions: [
+      'https://claude.ai/*',
+      'http://localhost:3334/*',
+    ],
+    icons: {
+      16: 'icon-16.png',
+      32: 'icon-32.png',
+      48: 'icon-48.png',
+      128: 'icon-128.png',
+    },
+    author: { email: 'browser.tools.dev@gmail.com' },
+  },
+});
