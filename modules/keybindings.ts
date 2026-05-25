@@ -79,11 +79,7 @@ function onKeyDown(e: KeyboardEvent) {
 
   if (getMode() !== 'active') return;
 
-  if (e.key === 'Shift') {
-    // Prevent browser text selection while brushing
-    e.preventDefault();
-    return;
-  }
+  if (e.key === 'Shift') return;
 
   if (e.key === 'Escape') {
     e.preventDefault();
