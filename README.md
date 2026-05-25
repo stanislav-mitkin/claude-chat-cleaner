@@ -17,8 +17,8 @@ Chrome extension for bulk-deleting Claude.ai conversations via keyboard. No popu
 ## Install (development)
 
 ```bash
-pnpm install
-pnpm build          # builds to .output/chrome-mv3/
+yarn install
+yarn build          # builds to .output/chrome-mv3/
 ```
 
 Then open `chrome://extensions`, enable **Developer mode**, click **Load unpacked**, select `.output/chrome-mv3/`.
@@ -42,7 +42,7 @@ Tests use a local Python mock server on port 3334 (auto-started by Playwright) a
 
 **Run tests:**
 ```bash
-pnpm test
+yarn test
 ```
 
 > ⚠️ **Run sparingly.** Each test run serves local fixtures and loads a real Chrome instance with the extension.

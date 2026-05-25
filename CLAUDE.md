@@ -9,10 +9,10 @@ Chrome MV3 extension (WXT + TypeScript) that bulk-deletes Claude.ai conversation
 ## Commands
 
 ```bash
-pnpm dev          # dev server with HMR (does not produce a loadable build)
-pnpm build        # production build → .output/chrome-mv3/
-pnpm zip          # packaged extension zip
-pnpm test         # pnpm build && playwright test  (see Testing below)
+yarn dev          # dev server with HMR (does not produce a loadable build)
+yarn build        # production build → .output/chrome-mv3/
+yarn zip          # packaged extension zip
+yarn test         # yarn build && playwright test  (see Testing below)
 ```
 
 After `pnpm build`, load the extension in Chrome: `chrome://extensions` → Developer mode → Load unpacked → `.output/chrome-mv3/`.
@@ -23,7 +23,7 @@ Tests run a real Chrome instance with the extension loaded against **live claude
 
 To run a single test: `playwright test -g "test name"`
 
-Tests must have a built extension in `.output/chrome-mv3/` — always run `pnpm build` first (or use `pnpm test` which does both).
+Tests must have a built extension in `.output/chrome-mv3/` — always run `yarn build` first (or use `yarn test` which does both).
 
 ## Architecture
 
