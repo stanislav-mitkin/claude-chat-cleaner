@@ -35,7 +35,7 @@ export function enterMode() {
   mode = 'active';
   selectedIds = new Set();
   hoveredId = null;
-  // Blur any focused input so Space / Cmd+A work immediately
+  // Blur any focused input so Cmd+A works immediately
   (document.activeElement as HTMLElement)?.blur?.();
   modeListeners.forEach((cb) => cb(mode));
   notifySelection();

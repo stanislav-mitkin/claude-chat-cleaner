@@ -246,6 +246,8 @@ const SHADOW_CSS = `
 let host: HTMLElement | null = null;
 let shadow: ShadowRoot | null = null;
 let themeObserver: MutationObserver | null = null;
+let systemThemeQuery: MediaQueryList | null = null;
+let systemThemeListener: (() => void) | null = null;
 
 let idleCardEl: HTMLElement | null = null;
 let idleResultEl: HTMLElement | null = null;
@@ -289,7 +291,7 @@ export function initOverlay() {
   activationKeyCache = mac ? '⌘⇧X' : 'Ctrl+Shift+X';
 
   const hints: [string, string][] = [
-    ['click / Space', t('key_chat')],
+    ['click', t('key_chat')],
     [`${mod}A`,       t('key_all')],
     [`${mod}D`,       t('key_clear')],
     ['↩ × 2',         t('key_delete')],
@@ -354,10 +356,13 @@ export function initOverlay() {
   clearBtnEl?.addEventListener('click',  () => clearHandler?.());
   exitBtnEl?.addEventListener('click',   () => exitHandler?.());
 
-  // theme
+  // theme — watch both Claude's class toggle and OS-level preference changes
   applyTheme(detectTheme());
   themeObserver = new MutationObserver(() => applyTheme(detectTheme()));
   themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+  systemThemeQuery = window.matchMedia('(prefers-color-scheme: light)');
+  systemThemeListener = () => applyTheme(detectTheme());
+  systemThemeQuery.addEventListener('change', systemThemeListener);
 
   onModeChange((mode) => {
     const active = mode === 'active';
@@ -449,6 +454,11 @@ function clearStatusText() {
 export function destroyOverlay() {
   themeObserver?.disconnect();
   themeObserver = null;
+  if (systemThemeQuery && systemThemeListener) {
+    systemThemeQuery.removeEventListener('change', systemThemeListener);
+  }
+  systemThemeQuery = null;
+  systemThemeListener = null;
   if (idleResultTimer) { clearTimeout(idleResultTimer); idleResultTimer = null; }
   host?.remove();
   host = shadow = idleCardEl = idleResultEl = panelEl = dotEl = countBadgeEl = statusEl =
