@@ -1,0 +1,48 @@
+🗑️ Supprimez des conversations Claude en masse en quelques secondes. Sélectionnez tout ou choisissez les chats voulus — puis supprimez-les en un clic.
+
+Fatigué de supprimer vos chats Claude un par un ? Claude Chat Cleaner ajoute un mode de sélection directement dans la barre latérale de Claude.ai pour que vous puissiez marquer plusieurs conversations et les supprimer toutes en même temps. Parfait pour nettoyer rapidement votre historique de chats.
+
+COMMENT ÇA MARCHE
+——————————————————
+
+1. Ouvrez claude.ai
+2. Cliquez sur le bouton « Select chats » dans la barre latérale — ou appuyez sur Ctrl+Maj+X (⌘⇧X sur Mac)
+3. Cliquez sur n'importe quelle conversation pour activer ou désactiver sa sélection
+4. Appuyez sur Entrée (confirmation → Entrée à nouveau) ou cliquez sur Supprimer pour tout effacer
+
+⌨️ RACCOURCIS CLAVIER
+————————————————————
+
+• Ctrl+Maj+X / ⌘⇧X — Activer / désactiver le mode de sélection
+• Clic — Activer ou désactiver la sélection d'un chat
+• Ctrl+A / ⌘A — Sélectionner tous les chats
+• Ctrl+D / ⌘D — Effacer la sélection
+• Entrée → Entrée — Supprimer les éléments sélectionnés (confirmation en deux étapes)
+• Échap — Quitter le mode de sélection
+
+✨ FONCTIONNALITÉS
+——————————————
+
+✓ Sélection et suppression en masse d'un nombre illimité de conversations
+✓ Tout sélectionner avec un seul raccourci
+✓ Confirmation de suppression en deux étapes — zéro suppression accidentelle
+✓ Barre de progression — retour en temps réel pendant la suppression
+✓ Interface optimiste — les chats disparaissent instantanément et sont restaurés en cas d'erreur
+✓ Flux de travail entièrement au clavier
+✓ Léger — sans scripts en arrière-plan ni appels à des serveurs tiers
+✓ Sans compte, sans connexion, sans collecte de données
+
+🔒 CONFIDENTIALITÉ
+————————————————
+
+Claude Chat Cleaner ne collecte, ne stocke ni ne transmet aucune donnée personnelle. Il envoie uniquement des requêtes de suppression directement à la propre API de Claude en votre nom — les mêmes requêtes que Claude.ai effectue lorsque vous supprimez un chat manuellement.
+
+Autorisations demandées :
+• claude.ai — nécessaire pour lire la barre latérale et appeler l'API de suppression
+
+🌍 LANGUES
+—————————
+
+English, Русский, Deutsch, Español, Français, Italiano, Português, Polski, Nederlands, Türkçe, Indonesian, Tiếng Việt, 日本語, 한국어, 中文(简体), 中文(繁體), العربية
+
+Idéal pour les développeurs, les chercheurs, les utilisateurs avancés de l'IA et tous ceux qui veulent garder Claude propre et organisé.

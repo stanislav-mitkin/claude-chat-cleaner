@@ -1,0 +1,48 @@
+🗑️ Claude konuşmalarını saniyeler içinde toplu olarak sil. Tümünü seç ya da istediğin sohbetleri seç — tek tıklamayla sil.
+
+Claude sohbetlerini tek tek silmekten bıktın mı? Claude Chat Cleaner, Claude.ai kenar çubuğuna doğrudan bir seçim modu ekleyerek birden fazla konuşmayı işaretleyip hepsini bir anda silmeni sağlar. Sohbet geçmişini hızla temizlemek için mükemmel.
+
+NASIL ÇALIŞIR
+—————————————
+
+1. claude.ai'yi aç
+2. Kenar çubuğundaki «Select chats» düğmesine tıkla — ya da Ctrl+Shift+X tuşlarına bas (Mac'te ⌘⇧X)
+3. Herhangi bir konuşmaya tıklayarak seçimini aç ya da kapat
+4. Enter'a bas (onayla → tekrar Enter) ya da Sil düğmesine tıklayarak tümünü kaldır
+
+⌨️ KLAVYE KISAYOLLARI
+————————————————————
+
+• Ctrl+Shift+X / ⌘⇧X — Seçim moduna gir / çık
+• Tıklama — Sohbeti seç ya da seçimini kaldır
+• Ctrl+A / ⌘A — Tüm sohbetleri seç
+• Ctrl+D / ⌘D — Seçimi temizle
+• Enter → Enter — Seçilenleri sil (iki adımlı onay)
+• Escape — Seçim modundan çık
+
+✨ ÖZELLİKLER
+——————————
+
+✓ İstediğin sayıda konuşmayı toplu seçip sil
+✓ Tek kısayolla tümünü seç
+✓ İki adımlı silme onayı — yanlışlıkla silme yok
+✓ İlerleme çubuğu — silme sırasında gerçek zamanlı geri bildirim
+✓ İyimser arayüz — sohbetler anında kaybolur, hata durumunda otomatik geri yüklenir
+✓ Tamamen klavyeyle yönetilen iş akışı
+✓ Hafif — arka plan betiği yok, üçüncü taraf sunuculara bağlantı yok
+✓ Hesap yok, giriş yok, veri toplama yok
+
+🔒 GİZLİLİK
+————————
+
+Claude Chat Cleaner hiçbir kişisel veri toplamaz, depolamaz ya da iletmez. Yalnızca senin adına Claude'un kendi API'sine doğrudan silme istekleri gönderir — Claude.ai'nin bir sohbeti manuel olarak sildiğinde yaptığı isteklerin aynısı.
+
+İstenen izinler:
+• claude.ai — kenar çubuğunu okumak ve silme API'sini çağırmak için gerekli
+
+🌍 DİLLER
+——————————
+
+English, Русский, Deutsch, Español, Français, Italiano, Português, Polski, Nederlands, Türkçe, Indonesian, Tiếng Việt, 日本語, 한국어, 中文(简体), 中文(繁體), العربية
+
+Geliştiriciler, araştırmacılar, yapay zeka güç kullanıcıları ve Claude'u düzenli tutmak isteyen herkes için ideal.

@@ -1,0 +1,48 @@
+🗑️ Lösche Claude-Unterhaltungen in Sekunden – im Stapel. Alle auswählen oder einzelne Chats picken — dann mit einem Klick löschen.
+
+Genug davon, Claude-Chats einzeln zu löschen? Claude Chat Cleaner fügt einen Auswahlmodus direkt in die Claude.ai-Seitenleiste ein, sodass du mehrere Unterhaltungen markieren und alle auf einmal entfernen kannst. Perfekt, um deine Chathistorie schnell aufzuräumen.
+
+SO FUNKTIONIERT ES
+——————————————————
+
+1. Öffne claude.ai
+2. Klicke in der Seitenleiste auf „Select chats" — oder drücke Strg+Umschalt+X (⌘⇧X auf dem Mac)
+3. Klicke auf Unterhaltungen, um sie auszuwählen oder die Auswahl aufzuheben
+4. Drücke Enter (Bestätigung → erneut Enter) oder klicke auf Löschen, um alle auf einmal zu entfernen
+
+⌨️ TASTENKÜRZEL
+————————————
+
+• Strg+Umschalt+X / ⌘⇧X — Auswahlmodus starten / beenden
+• Klick — Chat auswählen oder abwählen
+• Strg+A / ⌘A — Alle Chats auswählen
+• Strg+D / ⌘D — Auswahl aufheben
+• Enter → Enter — Ausgewählte löschen (zweistufige Bestätigung)
+• Escape — Auswahlmodus beenden
+
+✨ FUNKTIONEN
+——————————
+
+✓ Beliebig viele Unterhaltungen im Stapel auswählen und löschen
+✓ Alles auswählen mit einem Tastenkürzel
+✓ Zweistufige Löschbestätigung — keine versehentlichen Löschungen
+✓ Fortschrittsbalken — Echtzeit-Rückmeldung während des Löschens
+✓ Optimistisches UI — Chats verschwinden sofort, bei Fehler automatisch wiederhergestellt
+✓ Komplett per Tastatur bedienbar
+✓ Leichtgewichtig — keine Hintergrundskripte, keine Aufrufe an Drittserver
+✓ Kein Konto, kein Login, keine Datenerfassung
+
+🔒 DATENSCHUTZ
+———————————
+
+Claude Chat Cleaner erfasst, speichert und übermittelt keine personenbezogenen Daten. Die Erweiterung sendet Löschanfragen lediglich direkt an die eigene API von Claude in deinem Namen — dieselben Anfragen, die Claude.ai selbst ausführt, wenn du einen Chat manuell löschst.
+
+Angeforderte Berechtigungen:
+• claude.ai — erforderlich, um die Seitenleiste zu lesen und die Lösch-API aufzurufen
+
+🌍 SPRACHEN
+————————
+
+English, Русский, Deutsch, Español, Français, Italiano, Português, Polski, Nederlands, Türkçe, Indonesian, Tiếng Việt, 日本語, 한국어, 中文(简体), 中文(繁體), العربية
+
+Ideal für Entwickler, Forschende, KI-Power-User und alle, die Claude sauber und organisiert halten möchten.

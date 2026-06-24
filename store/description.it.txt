@@ -1,0 +1,48 @@
+🗑️ Elimina le conversazioni di Claude in blocco in pochi secondi. Seleziona tutto o scegli i chat — poi cancella con un solo clic.
+
+Stanco di eliminare i chat di Claude uno alla volta? Claude Chat Cleaner aggiunge una modalità di selezione direttamente nella barra laterale di Claude.ai per permetterti di selezionare più conversazioni ed eliminarle tutte insieme. Perfetto per ripulire rapidamente la cronologia dei tuoi chat.
+
+COME FUNZIONA
+—————————————
+
+1. Apri claude.ai
+2. Fai clic sul pulsante «Select chats» nella barra laterale — o premi Ctrl+Maiusc+X (⌘⇧X su Mac)
+3. Fai clic su qualsiasi conversazione per attivarla o deselezionarla
+4. Premi Invio (conferma → Invio di nuovo) oppure clicca su Elimina per rimuoverle tutte
+
+⌨️ SCORCIATOIE DA TASTIERA
+——————————————————————
+
+• Ctrl+Maiusc+X / ⌘⇧X — Attiva / disattiva la modalità di selezione
+• Clic — Attiva o deseleziona un chat
+• Ctrl+A / ⌘A — Seleziona tutti i chat
+• Ctrl+D / ⌘D — Cancella la selezione
+• Invio → Invio — Elimina i selezionati (conferma in due passaggi)
+• Esc — Esci dalla modalità di selezione
+
+✨ FUNZIONALITÀ
+——————————
+
+✓ Selezione ed eliminazione in blocco di qualsiasi numero di conversazioni
+✓ Seleziona tutto con una sola scorciatoia
+✓ Conferma di eliminazione in due passaggi — nessuna cancellazione accidentale
+✓ Barra di avanzamento — feedback in tempo reale durante l'eliminazione
+✓ UI ottimistica — i chat scompaiono istantaneamente e vengono ripristinati in caso di errore
+✓ Flusso di lavoro completamente da tastiera
+✓ Leggero — nessuno script in background, nessuna chiamata a server di terze parti
+✓ Nessun account, nessun login, nessuna raccolta dati
+
+🔒 PRIVACY
+—————————
+
+Claude Chat Cleaner non raccoglie, memorizza né trasmette alcun dato personale. Invia soltanto richieste di eliminazione direttamente alle API di Claude per tuo conto — le stesse richieste che Claude.ai esegue quando elimini un chat manualmente.
+
+Permessi richiesti:
+• claude.ai — necessario per leggere la barra laterale e chiamare l'API di eliminazione
+
+🌍 LINGUE
+—————————
+
+English, Русский, Deutsch, Español, Français, Italiano, Português, Polski, Nederlands, Türkçe, Indonesian, Tiếng Việt, 日本語, 한국어, 中文(简体), 中文(繁體), العربية
+
+Ideale per sviluppatori, ricercatori, power user dell'IA e chiunque voglia mantenere Claude in ordine e pulito.

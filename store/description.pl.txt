@@ -1,0 +1,48 @@
+🗑️ Usuwaj rozmowy z Claude masowo w kilka sekund. Zaznacz wszystkie lub wybierz konkretne czaty — i usuń je jednym kliknięciem.
+
+Masz dość usuwania czatów Claude'a jeden po drugim? Claude Chat Cleaner dodaje tryb zaznaczania bezpośrednio do paska bocznego Claude.ai, dzięki czemu możesz oznaczyć wiele rozmów i usunąć je wszystkie naraz. Idealne do szybkiego porządkowania historii czatów.
+
+JAK TO DZIAŁA
+—————————————
+
+1. Otwórz claude.ai
+2. Kliknij przycisk „Select chats" w pasku bocznym — lub naciśnij Ctrl+Shift+X (⌘⇧X na Macu)
+3. Kliknij dowolną rozmowę, aby ją zaznaczyć lub odznaczyć
+4. Naciśnij Enter (potwierdź → Enter ponownie) lub kliknij Usuń, aby skasować wszystkie zaznaczone
+
+⌨️ SKRÓTY KLAWISZOWE
+————————————————————
+
+• Ctrl+Shift+X / ⌘⇧X — Włącz / wyłącz tryb zaznaczania
+• Kliknięcie — Zaznacz lub odznacz czat
+• Ctrl+A / ⌘A — Zaznacz wszystkie czaty
+• Ctrl+D / ⌘D — Wyczyść zaznaczenie
+• Enter → Enter — Usuń zaznaczone (potwierdzenie dwuetapowe)
+• Escape — Wyjdź z trybu zaznaczania
+
+✨ FUNKCJE
+——————————
+
+✓ Masowe zaznaczanie i usuwanie dowolnej liczby rozmów
+✓ Zaznaczenie wszystkiego jednym skrótem
+✓ Dwuetapowe potwierdzenie usunięcia — żadnych przypadkowych skasowań
+✓ Pasek postępu — informacja zwrotna w czasie rzeczywistym podczas usuwania
+✓ Optymistyczny interfejs — czaty znikają natychmiast i są przywracane w razie błędu
+✓ W pełni sterowany klawiaturą
+✓ Lekkie — bez skryptów w tle, bez połączeń z zewnętrznymi serwerami
+✓ Bez konta, bez logowania, bez zbierania danych
+
+🔒 PRYWATNOŚĆ
+—————————
+
+Claude Chat Cleaner nie zbiera, nie przechowuje ani nie przesyła żadnych danych osobowych. Wysyła tylko żądania usunięcia bezpośrednio do własnego API Claude'a w Twoim imieniu — te same żądania, które Claude.ai wykonuje, gdy ręcznie usuwasz czat.
+
+Wymagane uprawnienia:
+• claude.ai — niezbędne do odczytu paska bocznego i wywołania API usuwania
+
+🌍 JĘZYKI
+—————————
+
+English, Русский, Deutsch, Español, Français, Italiano, Português, Polski, Nederlands, Türkçe, Indonesian, Tiếng Việt, 日本語, 한국어, 中文(简体), 中文(繁體), العربية
+
+Idealne dla deweloperów, badaczy, zaawansowanych użytkowników AI i wszystkich, którzy chcą utrzymać Claude'a w porządku.

@@ -1,0 +1,48 @@
+🗑️ Elimine conversas do Claude em massa em segundos. Seleccione tudo ou escolha os chats — e apague com um clique.
+
+Farto de eliminar chats do Claude um por um? O Claude Chat Cleaner adiciona um modo de selecção directamente na barra lateral do Claude.ai para que possa marcar várias conversas e eliminá-las todas de uma vez. Perfeito para limpar rapidamente o histórico dos seus chats.
+
+COMO FUNCIONA
+—————————————
+
+1. Abra o claude.ai
+2. Clique no botão «Select chats» na barra lateral — ou prima Ctrl+Shift+X (⌘⇧X no Mac)
+3. Clique em qualquer conversa para activar ou desactivar a selecção
+4. Prima Enter (confirme → Enter novamente) ou clique em Eliminar para remover tudo
+
+⌨️ ATALHOS DE TECLADO
+————————————————————
+
+• Ctrl+Shift+X / ⌘⇧X — Entrar / sair do modo de selecção
+• Clique — Activar ou desactivar a selecção de um chat
+• Ctrl+A / ⌘A — Seleccionar todos os chats
+• Ctrl+D / ⌘D — Limpar a selecção
+• Enter → Enter — Eliminar seleccionados (confirmação em dois passos)
+• Escape — Sair do modo de selecção
+
+✨ FUNCIONALIDADES
+————————————
+
+✓ Selecção e eliminação em massa de qualquer número de conversas
+✓ Seleccionar tudo com um único atalho
+✓ Confirmação de eliminação em dois passos — sem eliminações acidentais
+✓ Barra de progresso — feedback em tempo real durante a eliminação
+✓ UI optimista — os chats desaparecem instantaneamente e são restaurados em caso de erro
+✓ Fluxo de trabalho totalmente pelo teclado
+✓ Leve — sem scripts em segundo plano, sem chamadas a servidores de terceiros
+✓ Sem conta, sem início de sessão, sem recolha de dados
+
+🔒 PRIVACIDADE
+————————————
+
+O Claude Chat Cleaner não recolhe, armazena nem transmite quaisquer dados pessoais. Apenas envia pedidos de eliminação directamente para a API do Claude em seu nome — os mesmos pedidos que o Claude.ai efectua quando elimina um chat manualmente.
+
+Permissões solicitadas:
+• claude.ai — necessário para ler a barra lateral e chamar a API de eliminação
+
+🌍 IDIOMAS
+——————————
+
+English, Русский, Deutsch, Español, Français, Italiano, Português, Polski, Nederlands, Türkçe, Indonesian, Tiếng Việt, 日本語, 한국어, 中文(简体), 中文(繁體), العربية
+
+Ideal para programadores, investigadores, utilizadores avançados de IA e todos os que querem manter o Claude organizado e limpo.

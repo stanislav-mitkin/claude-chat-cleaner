@@ -1,0 +1,48 @@
+🗑️ Hapus percakapan Claude secara massal dalam hitungan detik. Pilih semua atau tentukan chat yang diinginkan — lalu hapus dengan satu klik.
+
+Bosan menghapus chat Claude satu per satu? Claude Chat Cleaner menambahkan mode seleksi langsung ke bilah sisi Claude.ai sehingga kamu bisa menandai beberapa percakapan sekaligus dan menghapus semuanya dalam satu aksi. Sempurna untuk membersihkan riwayat chat dengan cepat.
+
+CARA KERJANYA
+—————————————
+
+1. Buka claude.ai
+2. Klik tombol «Select chats» di bilah sisi — atau tekan Ctrl+Shift+X (⌘⇧X di Mac)
+3. Klik percakapan mana saja untuk mengaktifkan atau menonaktifkan seleksinya
+4. Tekan Enter (konfirmasi → Enter lagi) atau klik Hapus untuk menghapus semuanya
+
+⌨️ PINTASAN KEYBOARD
+————————————————————
+
+• Ctrl+Shift+X / ⌘⇧X — Masuk / keluar mode seleksi
+• Klik — Aktifkan atau nonaktifkan seleksi chat
+• Ctrl+A / ⌘A — Pilih semua chat
+• Ctrl+D / ⌘D — Hapus seleksi
+• Enter → Enter — Hapus yang dipilih (konfirmasi dua langkah)
+• Escape — Keluar dari mode seleksi
+
+✨ FITUR
+——————————
+
+✓ Pilih dan hapus sejumlah percakapan secara massal
+✓ Pilih semua dengan satu pintasan
+✓ Konfirmasi penghapusan dua langkah — tanpa penghapusan tidak sengaja
+✓ Bilah progres — umpan balik real-time selama penghapusan berlangsung
+✓ UI optimistis — chat langsung hilang dan dipulihkan otomatis jika terjadi error
+✓ Alur kerja sepenuhnya berbasis keyboard
+✓ Ringan — tanpa skrip latar belakang, tanpa panggilan ke server pihak ketiga
+✓ Tanpa akun, tanpa login, tanpa pengumpulan data
+
+🔒 PRIVASI
+—————————
+
+Claude Chat Cleaner tidak mengumpulkan, menyimpan, atau mengirimkan data pribadi apa pun. Ekstensi ini hanya mengirimkan permintaan penghapusan langsung ke API Claude atas nama kamu — permintaan yang sama seperti yang dilakukan Claude.ai saat kamu menghapus chat secara manual.
+
+Izin yang diminta:
+• claude.ai — diperlukan untuk membaca bilah sisi dan memanggil API penghapusan
+
+🌍 BAHASA
+—————————
+
+English, Русский, Deutsch, Español, Français, Italiano, Português, Polski, Nederlands, Türkçe, Indonesian, Tiếng Việt, 日本語, 한국어, 中文(简体), 中文(繁體), العربية
+
+Ideal untuk pengembang, peneliti, pengguna AI aktif, dan siapa saja yang ingin menjaga Claude tetap rapi dan bersih.

@@ -1,0 +1,48 @@
+🗑️ Xóa hàng loạt cuộc trò chuyện trên Claude trong vài giây. Chọn tất cả hoặc chọn từng chat — rồi xóa chỉ với một cú nhấp chuột.
+
+Chán phải xóa từng chat Claude một? Claude Chat Cleaner thêm chế độ chọn ngay vào thanh bên của Claude.ai để bạn có thể đánh dấu nhiều cuộc trò chuyện cùng lúc và xóa tất cả chỉ trong một thao tác. Hoàn hảo để dọn sạch lịch sử trò chuyện nhanh chóng.
+
+CÁCH HOẠT ĐỘNG
+——————————————
+
+1. Mở claude.ai
+2. Nhấp vào nút «Select chats» ở thanh bên — hoặc nhấn Ctrl+Shift+X (⌘⇧X trên Mac)
+3. Nhấp vào bất kỳ cuộc trò chuyện nào để bật hoặc tắt lựa chọn
+4. Nhấn Enter (xác nhận → Enter lần nữa) hoặc nhấp Xóa để loại bỏ tất cả
+
+⌨️ PHÍM TẮT
+——————————
+
+• Ctrl+Shift+X / ⌘⇧X — Bật / tắt chế độ chọn
+• Nhấp — Chọn hoặc bỏ chọn một chat
+• Ctrl+A / ⌘A — Chọn tất cả các chat
+• Ctrl+D / ⌘D — Xóa lựa chọn
+• Enter → Enter — Xóa các mục đã chọn (xác nhận hai bước)
+• Escape — Thoát chế độ chọn
+
+✨ TÍNH NĂNG
+——————————
+
+✓ Chọn và xóa hàng loạt bất kỳ số lượng cuộc trò chuyện nào
+✓ Chọn tất cả chỉ với một phím tắt
+✓ Xác nhận xóa hai bước — không lo xóa nhầm
+✓ Thanh tiến trình — phản hồi theo thời gian thực trong quá trình xóa
+✓ Giao diện lạc quan — chat biến mất ngay lập tức, tự khôi phục khi có lỗi
+✓ Luồng làm việc hoàn toàn bằng bàn phím
+✓ Nhẹ — không có tập lệnh nền, không gọi đến máy chủ bên thứ ba
+✓ Không cần tài khoản, không cần đăng nhập, không thu thập dữ liệu
+
+🔒 QUYỀN RIÊNG TƯ
+————————————————
+
+Claude Chat Cleaner không thu thập, lưu trữ hay truyền bất kỳ dữ liệu cá nhân nào. Tiện ích chỉ gửi yêu cầu xóa trực tiếp đến API của Claude thay mặt bạn — đúng các yêu cầu mà Claude.ai thực hiện khi bạn xóa chat thủ công.
+
+Quyền được yêu cầu:
+• claude.ai — cần thiết để đọc thanh bên và gọi API xóa
+
+🌍 NGÔN NGỮ
+——————————
+
+English, Русский, Deutsch, Español, Français, Italiano, Português, Polski, Nederlands, Türkçe, Indonesian, Tiếng Việt, 日本語, 한국어, 中文(简体), 中文(繁體), العربية
+
+Lý tưởng cho nhà phát triển, nhà nghiên cứu, người dùng AI chuyên nghiệp và tất cả những ai muốn giữ Claude gọn gàng, ngăn nắp.
